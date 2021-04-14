@@ -1,0 +1,97 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+          "type": "text",
+          "style": "plain",
+          "foreground": "lightYellow",
+          "properties": {
+            "text": "🔥"
+          }
+        },
+        {
+          "type": "executiontime",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#8800dd",
+          "properties": {
+            "threshold": 500,
+            "style": "austin",
+            "prefix": " <#fefefe>\ufbab</> "
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "white",
+          "background": "blue",
+          "properties": {
+            "style": "short"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "black",
+          "background": "lightYellow"
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffde57",
+          "background": "#4584b6",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [{
+        "type": "time",
+        "style": "plain",
+        "foreground": "darkGray",
+        "properties": {
+          "prefix": "[",
+          "postfix": "]"
+        }
+      }]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+          "type": "exit",
+          "style": "plain",
+          "foreground": "red",
+          "properties": {
+            "error_icon": "\u2716",
+            "display_exit_code": false
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "green",
+          "properties": {
+            "prefix": "",
+            "text": "\u21B3",
+            "postfix": ""
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true
+}

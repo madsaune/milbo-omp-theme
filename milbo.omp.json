@@ -24,10 +24,20 @@
           }
         },
         {
+          "type": "shell",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#4D5566",
+          "properties": {
+            "prefix": " \uFCB5 "
+          }
+        },
+        {
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "white",
+          "foreground": "#ffffff",
           "background": "blue",
           "properties": {
             "style": "short"

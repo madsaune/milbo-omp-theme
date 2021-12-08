@@ -10,7 +10,7 @@
           "style": "plain",
           "foreground": "white",
           "properties": {
-            "prefix": "{",
+            "prefix": "⚡{",
             "postfix": "}"
           }
         },
@@ -19,7 +19,7 @@
           "style": "plain",
           "foreground": "#7ea4b3",
           "properties": {
-            "style": "mixed"
+            "style": "letter"
           }
         }
       ]

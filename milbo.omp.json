@@ -45,6 +45,16 @@
             "prefix": "[",
             "postfix": "]"
           }
+        },
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "foreground": "#8800dd",
+          "properties": {
+            "threshold": 500,
+            "style": "austin",
+            "template": " <#fefefe>\ufbab</> "
+          }
         }
       ]
     },

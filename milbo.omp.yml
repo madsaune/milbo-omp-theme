@@ -43,6 +43,7 @@ blocks:
     segments:
       - type: exit
         style: plain
+        template: "\u276f"
         foreground: green
         foreground_templates:
           - '{{ if gt .Code 0 }}red{{ end }}'

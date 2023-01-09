@@ -9,26 +9,21 @@ blocks:
         style: plain
         foreground: blue
         template: "[{{ .Name }}]"
+      - type: git
+        style: plain
+        foreground: lightYellow
+        template: " [{{ .HEAD }}]"
+        properties:
+          fetch_status: true
+          fetch_worktree_count: true
       - type: path
         style: plain
         foreground: '#7ea4b3'
         properties:
           style: letter
-      - type: python
-        style: plain
-        foreground: yellow
-        template: "(\uE235 {{ .Full }}) "
   - type: prompt
     alignment: right
     segments:
-      - type: git
-        style: plain
-        foreground: lightYellow
-        properties:
-          fetch_stash_count: true
-          fetch_status: true
-          fetch_upstream_icon: true
-          fetch_worktree_count: true
       - type: time
         style: plain
         foreground: '#a4ff94'
